@@ -19,7 +19,7 @@ export const putDb = async (content) => {
   const store = tran.objectStore("jate");
   const request = store.put({ id: 1, jate: content });
   const result = await request;
-  return result;
+
 
 };
 
